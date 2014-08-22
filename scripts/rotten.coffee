@@ -153,7 +153,6 @@ class RottenMovie
 
   createResponse: ->
     response = ""
-    response += "#{posterUrl}\n" if posterUrl
     response += @toDetailedString()
     return response
 
