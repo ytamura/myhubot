@@ -152,7 +152,9 @@ class RottenMovie
     return null
 
   createResponse: ->
+    posterUrl = @getPosterUrl()
     response = ""
+    response += "#{posterUrl}\n" if posterUrl
     response += @toDetailedString()
     return response
 
@@ -164,8 +166,8 @@ module.exports = (robot) ->
     if !query.match(/top\s+\d+/) && !query.match(/result\s+\d+/)
       rotten.search query, (err, movie) ->
         unless err?
-	  posterUrl = movie.getPosterUrl()
-	  message.send posterUrl if posterUrl
+	  #posterUrl = movie.getPosterUrl()
+	  #message.send posterUrl if posterUrl
           message.send movie.createResponse()
         else
           message.send err
