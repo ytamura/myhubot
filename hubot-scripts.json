@@ -4,5 +4,7 @@
 	"stock.coffee", 
 	"dealwithit.coffee", 
 	"aww.coffee", 
-	"xkcd.coffee"
+	"xkcd.coffee",
+	"remind.coffee",
+	"decide.coffee"
 ]
