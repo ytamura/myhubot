@@ -20,10 +20,12 @@ module.exports = (robot) ->
 
   robot.respond /pug bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
-    if count > 20
-       msg.send "Pub block!"
-    else if count > 50
-       msg.send "Activating PUG SHIELD."
+    if count > 1000
+       msg.send "silly."
+    if count > 50
+       msg.send "Activating PUG SHIELD!"
+    else if count > 10
+       msg.send "Pug block!"
     else
        msg.http("http://pugme.herokuapp.com/bomb?count=" + count)
          .get() (err, res, body) ->
