@@ -1,1 +1,1 @@
-web: bin/hubot -a hipchat
+web: bin/hubot --alias '!' -a hipchat -n gebaro
