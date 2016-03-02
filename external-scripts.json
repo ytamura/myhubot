@@ -1,6 +1,12 @@
 [
-	"hubot-dinosaur-comics",
-	"hubot-lefthanded-toons",
-  	"hubot-tweets",
-  	"hubot-calculator"
+  "hubot-diagnostics",
+  "hubot-help",
+  "hubot-heroku-keepalive",
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-pugme",
+  "hubot-maps",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-shipit"
 ]

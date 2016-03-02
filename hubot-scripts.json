@@ -1,10 +1,1 @@
-[
-	"redis-brain.coffee", 
-	"shipit.coffee", 
-	"stock.coffee", 
-	"dealwithit.coffee", 
-	"aww.coffee", 
-	"xkcd.coffee",
-	"remind.coffee",
-	"decide.coffee"
-]
+[]

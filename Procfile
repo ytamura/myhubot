@@ -1,1 +1,1 @@
-web: bin/hubot --alias '!' -a hipchat -n gebaro
+web: bin/hubot --alias '!' -a slack -n gebaro
