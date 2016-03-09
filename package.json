@@ -13,7 +13,6 @@
     "hubot-help": "latest",
     "hubot-heroku-keepalive": "latest",
     "hubot-maps": "latest",
-    "hubot-pugme": "latest",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "latest",
     "hubot-scripts": "^2.16.2",
