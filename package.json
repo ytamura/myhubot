@@ -7,7 +7,6 @@
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-calculator": "latest",
-    "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "latest",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "latest",
