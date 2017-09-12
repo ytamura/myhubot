@@ -20,6 +20,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "latest",
     "hubot-slack": "^3.4.2",
+    "hubot-stocks": "latest",
     "log": "^1.4.0",
     "nan": "^0.3.2",
     "slack-client": "1.4.1",
